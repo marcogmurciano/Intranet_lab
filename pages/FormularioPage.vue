@@ -1,7 +1,7 @@
 <template>
     <title>Formulario</title>
     <div class="app flex">
-        <LeftSidebar where="gestiones" class="w-[19%] fixed"/>
+        <LeftSidebar where="gestiones" class="w-[19%] sticky"/>
         <div class="modalContainer relative flex w-full">
             <ModalWindow class="absolute w-full h-full" v-if="modalCounter" />
             <div class="main flex flex-col gap-6 w-full px-5 py-6">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <RightSidebar class="w-[19%] fixed"/>
+        <RightSidebar class="w-[19%] sticky"/>
         </div>
 
     </div>

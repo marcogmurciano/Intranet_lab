@@ -10,7 +10,7 @@
                 <CardLittle title="Consultar expediente" plazo="22 de Mayo"> <ph-file-plus :size="28" /> </CardLittle>
                 <CardLittle title="Asistencia" plazo="17 de Abril"> <ph-user :size="28" /> </CardLittle>
                 <CardLittle title="Anulación beca" plazo="12 de Junio"> <ph-coin :size="28" /> </CardLittle>
-                <CardLittle title="Gestiones de matrícula" plazo="31 de Mayo"> <ph-file-plus :size="28" /> </CardLittle>
+                <NuxtLink to="/GestionesMatricula"> <CardLittle title="Gestiones de matrícula" plazo="31 de Mayo"> <ph-file-plus :size="28" /> </CardLittle> </NuxtLink>
                 <CardLittle title="Calificaciones" plazo="6 de Junio"> <ph-bookmark-simple :size="28" /> </CardLittle>
             </div>
         </div>

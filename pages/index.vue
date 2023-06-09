@@ -7,7 +7,7 @@
                 Matrícula
             </div>
             <div class="panel grid grid-cols-2 gap-4">
-                <NuxtLink to="/TalleresHome"> <CardLittle title="Plazos generales" plazo="27 de Mayo"> <ph-file-search :size="28" /> </CardLittle> </NuxtLink>
+                <CardLittle title="Plazos generales" plazo="27 de Mayo"> <ph-file-search :size="28" /> </CardLittle>
                 <CardLittle title="Instrucciones de matrícula" plazo="16 de Abril"> <ph-file :size="28" /> </CardLittle>
                 <CardLittle title="Gestión de matrícula" plazo="12 de Junio"> <ph-file-text :size="28" /> </CardLittle>
                 <CardLittle title="Información de matrícula" plazo="22 de Abril"> <ph-file-plus :size="28" /></CardLittle>

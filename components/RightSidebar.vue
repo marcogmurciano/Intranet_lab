@@ -6,7 +6,7 @@
             <Notificacion type="grande"> Mañana entrega de Proyectos </Notificacion>
         </div>
         <div class="bloque">
-            <ProcesoBlock title="Cagar en el esc" :open="false"/>
+            <ProcesoBlock title="Matrícula" :open="false"/>
         </div>
     </div>
 </template>

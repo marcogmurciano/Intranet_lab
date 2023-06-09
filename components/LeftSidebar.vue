@@ -61,11 +61,11 @@
             <div class="mini text-gray4">bcamela4176@esdmadrid.es</div>
         </div>
         <div class="menu flex flex-col gap-3">
-            <MisCursos name="Mi perfil" :active="locationArray[0]"> <ph-user-circle :size="28" /> </MisCursos>
-            <MisCursos name="Talleres abiertos" :active="locationArray[1]"> <ph-laptop :size="28" /></MisCursos>
+            <NuxtLink to="/"><MisCursos name="Mi perfil" :active="locationArray[0]"> <ph-user-circle :size="28" /> </MisCursos> </NuxtLink>
+            <NuxtLink to="/TalleresHome"><MisCursos name="Talleres abiertos" :active="locationArray[1]"> <ph-laptop :size="28" /></MisCursos> </NuxtLink>
             <MisCursos name="Mis cursos" :active="locationArray[2]"> <ph-notebook :size="28" /> </MisCursos>
-            <MisCursos name="Mis gestiones" :active="locationArray[3]"> <ph-archive-box :size="28" /> </MisCursos>
-            <MisCursos name="Horario general" :active="locationArray[4]"> <ph-calendar-blank :size="28" /> </MisCursos>
+            <NuxtLink to="/Gestiones"><MisCursos name="Mis gestiones" :active="locationArray[3]"> <ph-archive-box :size="28" /> </MisCursos> </NuxtLink>
+            <MisCursos name="Horario general" :active="locationArray[4]"> <ph-calendar-blank :size="28" /> </MisCursos> 
             <MisCursos name="Matrícula" :active="locationArray[5]"> <ph-file :size="28" /> </MisCursos>
             <MisCursos name="Eventos" :active="locationArray[6]"> <ph-users :size="28" /> </MisCursos>
             <MisCursos name="Prácticas" :active="locationArray[7]"> <ph-puzzle-piece :size="28" /> </MisCursos>

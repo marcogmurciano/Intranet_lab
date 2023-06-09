@@ -7,10 +7,10 @@
                 Gestiones de matrícula
             </div>
             <div class="panel grid grid-cols-2 gap-4">
-                <CardLittle title="Matricularse" plazo="22 de Mayo"><ph-bookmark-simple :size="28" /></CardLittle>
-                <CardLittle title="Anular matrícula" plazo="17 de Abril"> <ph-bookmark-simple :size="28" /> </CardLittle>
-                <CardLittle title="Matricularse (una asignatura)" plazo="12 de Mayo"> <ph-bookmark-simple :size="28" /> </CardLittle>
-                <CardLittle title="Anular matrícula (una asignatura)" plazo="7 de Junio"> <ph-bookmark-simple :size="28" /> </CardLittle>
+                <NuxtLink to="/FormularioPage"> <CardLittle title="Matricularse" plazo="22 de Mayo"><ph-bookmark-simple :size="28" /></CardLittle> </NuxtLink>
+                <NuxtLink to="/FormularioPage"> <CardLittle title="Anular matrícula" plazo="17 de Abril"> <ph-bookmark-simple :size="28" /> </CardLittle> </NuxtLink>
+                <NuxtLink to="/FormularioPage"> <CardLittle title="Matricularse (una asignatura)" plazo="12 de Mayo"> <ph-bookmark-simple :size="28" /> </CardLittle> </NuxtLink>
+                <NuxtLink to="/FormularioPage"> <CardLittle title="Anular matrícula (una asignatura)" plazo="7 de Junio"> <ph-bookmark-simple :size="28" /> </CardLittle> </NuxtLink>
             </div>
         </div>
         <RightSidebar class="w-[19%]"/>
@@ -55,7 +55,6 @@
 </script>
 
 <style lang="sass" scoped>
-*
-    border: tomato 1px solid
+
 
 </style>
