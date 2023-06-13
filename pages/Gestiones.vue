@@ -57,7 +57,6 @@
 </script>
 
 <style lang="sass" scoped>
-*
-    border: tomato 1px solid
+
 
 </style>
